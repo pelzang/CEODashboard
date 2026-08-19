@@ -1,16 +1,143 @@
-export const daily = { sales: 'Nu. 12.84M', salesChange: '8.6%', cash: 'Nu. 4.26M', collections: 'Nu. 3.10M', collectionsChange: '12.4%', orders: '186', detail: 'Today vs. previous working day' }
-export const weekly = { sales: 'Nu. 68.90M', salesChange: '11.2%', cash: 'Nu. 21.50M', collections: 'Nu. 17.84M', collectionsChange: '7.8%', orders: '1,042', detail: 'Week to date vs. last week' }
+export const daily = {
+  sales: "Nu. 12.84M",
+  salesChange: "8.6%",
+  cash: "Nu. 4.26M",
+  collections: "Nu. 3.10M",
+  collectionsChange: "12.4%",
+  orders: "186",
+  detail: "Today vs. previous working day",
+};
+export const weekly = {
+  sales: "Nu. 68.90M",
+  salesChange: "11.2%",
+  cash: "Nu. 21.50M",
+  collections: "Nu. 17.84M",
+  collectionsChange: "7.8%",
+  orders: "1,042",
+  detail: "Week to date vs. last week",
+};
 
-export const navItems = [['CEO overview', 'dashboard'], ['Finance & loans', 'wallet'], ['Business performance', 'chart'], ['Inventory', 'box'], ['People & HR', 'users'], ['Reports', 'report'], ['Settings', 'settings']]
-export const profitSeries = [45, 56, 50, 68, 63, 78, 75, 89, 80, 96, 87, 105]
-export const dailyVolume = [{ day: 'Mon', value: 56 }, { day: 'Tue', value: 72 }, { day: 'Wed', value: 64 }, { day: 'Thu', value: 88 }, { day: 'Fri', value: 76 }, { day: 'Sat', value: 49 }, { day: 'Sun', value: 61 }]
-export const revenueMix = [{ label: 'Bhutan Petroleum', value: '42%', tone: 'fuel' }, { label: 'Automotive', value: '31%', tone: 'auto' }, { label: 'Homestore & ICT', value: '17%', tone: 'home' }, { label: 'Other business', value: '10%', tone: 'other' }]
+export const navItems = [
+  ["CEO overview", "dashboard"],
+  ["Finance & loans", "wallet"],
+  ["Business performance", "chart"],
+  ["Inventory", "box"],
+  ["People & HR", "users"],
+  ["Reports", "report"],
+  ["Settings", "settings"],
+];
+export const profitSeries = [45, 56, 50, 68, 63, 78, 75, 89, 80, 96, 87, 105];
+export const dailyVolume = [
+  { day: "Mon", value: 56 },
+  { day: "Tue", value: 72 },
+  { day: "Wed", value: 64 },
+  { day: "Thu", value: 88 },
+  { day: "Fri", value: 76 },
+  { day: "Sat", value: 49 },
+  { day: "Sun", value: 61 },
+];
+export const revenueMix = [
+  { label: "Bhutan Petroleum", value: "42%", tone: "fuel" },
+  { label: "Automotive", value: "31%", tone: "auto" },
+  { label: "Homestore & ICT", value: "17%", tone: "home" },
+  { label: "Other business", value: "10%", tone: "other" },
+];
 
 export const sectionPages = {
-  'Finance & loans': { eyebrow: 'Finance workspace', intro: 'Monitor cash positions, receivables, and loan obligations.', stats: [['Cash on hand', 'Nu. 4.26M'], ['Loan portfolio', 'Nu. 238.4M'], ['Collection rate', '93.8%'], ['Due this month', 'Nu. 36.6M']], items: [['Collection follow-up', '12 accounts require review before month-end'], ['Cash position', 'All operating accounts reconciled today'], ['Loan approvals', '3 trade financing requests awaiting decision']] },
-  'Business performance': { eyebrow: 'Commercial workspace', intro: 'Compare revenue, volume, and targets across operating divisions.', stats: [['Gross sales', 'Nu. 68.90M'], ['Net profit', 'Nu. 94.68M'], ['Target attainment', '108.4%'], ['Active divisions', '7']], items: [['Automotive division', 'Sales are 11.2% above the previous period'], ['Bhutan Petroleum', 'Fuel volumes remain within forecast range'], ['Homestore & ICT', 'Revenue growth is led by consumer electronics']] },
-  Inventory: { eyebrow: 'Operations workspace', intro: 'Stay ahead of stock availability and replenishment activity.', stats: [['Stock cover', '18.4 days'], ['Items below reorder', '31'], ['Inventory accuracy', '92.8%'], ['Open purchase orders', '46']], items: [['Automotive spare parts', '18 lines have reached their reorder level'], ['Petroleum reserves', 'Fuel stock cover is healthy across outlets'], ['Homestore deliveries', '7 supplier shipments are due this week']] },
-  'People & HR': { eyebrow: 'People workspace', intro: 'Review workforce information, recruitment, and compliance.', stats: [['Total employees', '614'], ['Open positions', '8'], ['Training completion', '87%'], ['Leave requests', '16']], items: [['Recruitment', 'Three candidate shortlists are ready for review'], ['Training calendar', 'Two mandatory programmes begin next week'], ['Employee records', 'Nine personnel files need supporting documents']] },
-  Reports: { eyebrow: 'Reporting centre', intro: 'Access board-ready reports and scheduled operational updates.', stats: [['Scheduled reports', '12'], ['Ready to review', '4'], ['Board packs', '2'], ['Last refreshed', '9:24 AM']], items: [['Monthly management report', 'Financial and operational sections are ready'], ['Inventory exception report', 'Includes all items below reorder thresholds'], ['People analytics', 'Headcount and workforce movement report updated']] },
-  Settings: { eyebrow: 'Administration', intro: 'Manage workspace preferences and system access.', stats: [['Active users', '38'], ['User roles', '6'], ['Connected systems', '5'], ['Last system sync', '9:24 AM']], items: [['Access management', 'Review roles for two newly added users'], ['Notification rules', 'Three report alerts are enabled'], ['Data connections', 'All integrated systems are operational']] },
-}
+  "Finance & loans": {
+    eyebrow: "Finance workspace",
+    intro: "Monitor cash positions, receivables, and loan obligations.",
+    stats: [
+      ["Cash on hand", "Nu. 4.26M"],
+      ["Loan portfolio", "Nu. 238.4M"],
+      ["Collection rate", "93.8%"],
+      ["Due this month", "Nu. 36.6M"],
+    ],
+    items: [
+      ["Collection follow-up", "12 accounts require review before month-end"],
+      ["Cash position", "All operating accounts reconciled today"],
+      ["Loan approvals", "3 trade financing requests awaiting decision"],
+    ],
+  },
+  "Business performance": {
+    eyebrow: "Commercial workspace",
+    intro: "Compare revenue, volume, and targets across operating divisions.",
+    stats: [
+      ["Gross sales", "Nu. 68.90M"],
+      ["Net profit", "Nu. 94.68M"],
+      ["Target attainment", "108.4%"],
+      ["Active divisions", "7"],
+    ],
+    items: [
+      ["Automotive division", "Sales are 11.2% above the previous period"],
+      ["Bhutan Petroleum", "Fuel volumes remain within forecast range"],
+      ["Homestore & ICT", "Revenue growth is led by consumer electronics"],
+    ],
+  },
+  Inventory: {
+    eyebrow: "Operations workspace",
+    intro: "Stay ahead of stock availability and replenishment activity.",
+    stats: [
+      ["Stock cover", "18.4 days"],
+      ["Items below reorder", "31"],
+      ["Inventory accuracy", "92.8%"],
+      ["Open purchase orders", "46"],
+    ],
+    items: [
+      ["Automotive spare parts", "18 lines have reached their reorder level"],
+      ["Petroleum reserves", "Fuel stock cover is healthy across outlets"],
+      ["Homestore deliveries", "7 supplier shipments are due this week"],
+    ],
+  },
+  "People & HR": {
+    eyebrow: "People workspace",
+    intro: "Review workforce information, recruitment, and compliance.",
+    stats: [
+      ["Total employees", "614"],
+      ["Open positions", "8"],
+      ["Training completion", "87%"],
+      ["Leave requests", "16"],
+    ],
+    items: [
+      ["Recruitment", "Three candidate shortlists are ready for review"],
+      ["Training calendar", "Two mandatory programmes begin next week"],
+      ["Employee records", "Nine personnel files need supporting documents"],
+    ],
+  },
+  Reports: {
+    eyebrow: "Reporting centre",
+    intro: "Access board-ready reports and scheduled operational updates.",
+    stats: [
+      ["Scheduled reports", "12"],
+      ["Ready to review", "4"],
+      ["Board packs", "2"],
+      ["Last refreshed", "9:24 AM"],
+    ],
+    items: [
+      [
+        "Monthly management report",
+        "Financial and operational sections are ready",
+      ],
+      [
+        "Inventory exception report",
+        "Includes all items below reorder thresholds",
+      ],
+      ["People analytics", "Headcount and workforce movement report updated"],
+    ],
+  },
+  Settings: {
+    eyebrow: "Administration",
+    intro: "Manage workspace preferences and system access.",
+    stats: [
+      ["Active users", "38"],
+      ["User roles", "6"],
+      ["Connected systems", "5"],
+      ["Last system sync", "9:24 AM"],
+    ],
+    items: [
+      ["Access management", "Review roles for two newly added users"],
+      ["Notification rules", "Three report alerts are enabled"],
+      ["Data connections", "All integrated systems are operational"],
+    ],
+  },
+};

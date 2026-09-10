@@ -14,7 +14,7 @@ function Overview({ data, period, onPeriodChange }) {
           <p className="eyebrow">
             CEO CONTROL CENTRE <span>•</span> DEMONSTRATION DATA
           </p>
-          <h1>Good morning, Leki</h1>
+          <h1>Good morning, Pelzang</h1>
           <p className="intro">
             A complete view of State Trading Corporation of Bhutan Ltd.
           </p>

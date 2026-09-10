@@ -20,6 +20,7 @@ export const weekly = {
 export const navItems = [
   ["CEO overview", "dashboard"],
   ["Finance & loans", "wallet"],
+  ["TR", "wallet"],
   ["Business performance", "chart"],
   ["Inventory", "box"],
   ["People & HR", "users"],
@@ -57,6 +58,21 @@ export const sectionPages = {
       ["Collection follow-up", "12 accounts require review before month-end"],
       ["Cash position", "All operating accounts reconciled today"],
       ["Loan approvals", "3 trade financing requests awaiting decision"],
+    ],
+  },
+  TR: {
+    eyebrow: "Trade receivables",
+    intro: "Review outstanding trade receivables, collections, and overdue accounts.",
+    stats: [
+      ["Outstanding balance", "Nu. 238.4M"],
+      ["Current receivables", "Nu. 187.2M"],
+      ["Overdue balance", "Nu. 14.6M"],
+      ["Collection rate", "93.8%"],
+    ],
+    items: [
+      ["Overdue accounts", "12 customer accounts require collection follow-up"],
+      ["Due in 30 days", "Nu. 36.6M is scheduled for collection this month"],
+      ["Credit review", "3 trade credit requests are awaiting approval"],
     ],
   },
   "Business performance": {

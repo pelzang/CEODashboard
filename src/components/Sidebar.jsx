@@ -34,7 +34,7 @@ function Sidebar({ activeSection, onSelect }) {
         <div className="profile">
           <div className="avatar">LD</div>
           <div>
-            <strong>Leki Dendup</strong>
+            <strong>Pelzang </strong>
             <span>Chief Executive Officer</span>
           </div>
           <Icon name="more" size={18} />
